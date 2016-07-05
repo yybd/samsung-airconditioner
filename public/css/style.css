@@ -1,0 +1,95 @@
+.device2{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #5c8a8a;
+  margin: 10px;
+  background-color:#ffffff;
+  border-radius: 8%;
+  overflow: hidden;
+  float: right;
+}
+
+.device2.true{
+   opacity: 1;
+}
+
+.device2.false{
+  opacity: 0.2;
+}
+
+
+ #row1{
+   height: 40px;
+ }
+ #row2{
+   height: 140px;
+   text-align: center;
+
+ }
+ #row3{
+   height: 50px;
+ }
+
+ #row3 #col1{
+   animation: marquee 50s linear infinite;
+
+ }
+
+ #mode{
+   font-size: 16px;
+   padding-right: 5px;
+ }
+
+ #temp{
+   font-size: 16px;
+ }
+
+ #icon{
+/*
+   content: url("../img/air.png");
+*/
+   padding: 0;
+ }
+
+ #login{
+ }
+
+ #power.on{
+   font-size: 68px;
+   line-height: 150px;
+   color:#66ccff;
+
+ }
+ #power.off{
+   font-size: 68px;
+   line-height: 150px;
+   color:#cccccc;
+
+ }
+ #power:hover {
+   color:#000066
+ }
+
+ #name{
+   font-size: 20px;
+ }
+#tempnew{
+  font-size: 25px;
+}
+#conf{
+  font-size: 25px;
+  line-height: 50px;
+}
+
+#list:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+#log { padding: 10px 20px;
+  border-top:  2px solid #5c8a8a;
+}
+#messages { list-style-type: none; margin: 0; padding: 0; overflow: scroll;}
+#messages li { padding: 2px 5px; }
+#messages li:nth-child(odd) { background: #eee; }

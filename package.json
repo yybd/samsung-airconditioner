@@ -1,0 +1,35 @@
+{
+  "name": "samsung-airconditioner",
+  "version": "0.0.1",
+  "description": "node.js module for the Samsung smart samsung-airconditioners",
+  "author": {
+    "name": "yy bd",
+    "email": "yy.bendavid@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yybd/samsung-airconditioner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yybd/samsung-airconditioner/issues"
+  },
+  "keywords": [
+    "Samsung",
+    "Air Conditioner"
+  ],
+  "main": "./samsung-discovery.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "carrier": ">= 0.1.0",
+    "express": "^4.13.4",
+    "netmask": "1.0.4",
+    "node-schedule": "^1.1.0",
+    "node-ssdp": "git://github.com/TheThingSystem/node-ssdp.git",
+    "socket.io": "^1.4.6",
+    "xml2json": "0.3.2"
+  },
+
+}

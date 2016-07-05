@@ -1,0 +1,45 @@
+<!doctype html ng-app="myApp">
+<html dir="rtl">
+  <head>
+    <title>AC samsung</title>
+    <style>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      #list { list-style-type: none; margin: 0; padding: 0; }
+      #list li { padding: 10px 20px; }
+      #list li:nth-child(odd) { background: #eee; }
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 2px 5px; }
+      #messages li:nth-child(odd) { background: #eee; }
+    </style>
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/DateTimePicker.css" />
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://code.angularjs.org/1.4.7/angular.min.js"></script>
+    <script src="../socket.io/socket.io.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="script.js"></script>
+    <script src="../js/DateTimePicker.js"></script>
+		<script src="../js/i18n/DateTimePicker-i18n.js"></script>
+  </head>
+  <body>
+    <button onclick="getDvices(parseDevice); ">Get Devices</button>
+    <button onclick="notify(); ">notify</button>
+
+    <div id="devices"></div>
+    <div id="dtBox"></div>
+
+    <div class="container">
+      <div ng-controller="mainController"></div>
+    </div>
+
+    <ul id="list" style="">
+    </ul>
+
+    <ul id="messages"></ul>
+
+  </body>
+</html>

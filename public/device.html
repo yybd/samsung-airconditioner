@@ -1,0 +1,24 @@
+{{#devices}}
+<div class="container device2 {{isLogin}}" id={{id}}>
+  <div class="row" id="row1">
+    <div class="col-sm-4" id="col1">
+      <span id="mode" data-content="mode">{{state.AC_FUN_OPMODE}} </span><span id="temp" data-content="temp">{{state.AC_FUN_TEMPSET}}° </span>
+    </div>
+    <img class="col-sm-4" id="icon"></img>
+    <div  class="col-sm-4 glyphicon glyphicon-signal text-right" id="login">
+    </div>
+  </div>
+  <div class="row" id="row2">
+    <div data-id={{id}} class="col-sm-12 glyphicon glyphicon-off {{state.AC_FUN_POWER}}" id="power">
+    </div>
+  </div>
+  <div class="row" id="row3">
+    <div class="col-sm-9" id="col1">
+      <span id="name"  data-content="name">{{name}}</span> <span id="tempnew" data-content="tempnew"> {{state.AC_FUN_TEMPNOW}}°</span>
+    </div>
+    <div class="col-sm-3 text-right" id="col2">
+      <span class="glyphicon glyphicon-cog" id="conf"></span>
+    </div>
+  </div>
+</div>
+{{/devices}}
