@@ -2,10 +2,7 @@
   "name": "samsung-airconditioner",
   "version": "0.0.1",
   "description": "node.js module for the Samsung smart samsung-airconditioners",
-  "author": {
-    "name": "yy bd",
-    "email": "yy.bendavid@gmail.com"
-  },
+  "author": "yybd",
   "repository": {
     "type": "git",
     "url": "https://github.com/yybd/samsung-airconditioner.git"
